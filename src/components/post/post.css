@@ -21,7 +21,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #e9ebf8;
+  max-width: 160px;
   border-radius: 10px;
 }
 
