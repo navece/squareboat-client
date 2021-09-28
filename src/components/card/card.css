@@ -1,0 +1,43 @@
+.cardContainer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  border: 1px solid#6290c8;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.cardContainerLeft {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainerMid {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardContainerRight {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followButton {
+  height: 30px;
+  width: 64px;
+  background-color: #6290c8;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.followButton:focus {
+  outline: none;
+}

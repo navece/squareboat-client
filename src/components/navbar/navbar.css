@@ -1,0 +1,26 @@
+.navbarContainer {
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #6290c8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbarLeft {
+  margin-left: 20px;
+}
+
+.navbarRight {
+  margin-right: 20px;
+}
+
+.profilePicture {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
